@@ -109,6 +109,15 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		D473ED861C2168B300576942 /* JKCycleScrollViews */ = {
+			isa = PBXGroup;
+			children = (
+				D4D10E171C1FB1DD002C9BB6 /* Categories */,
+				D4D10E101C1FB136002C9BB6 /* Views */,
+			);
+			name = JKCycleScrollViews;
+			sourceTree = "<group>";
+		};
 		D4D10DCE1C1FAAEF002C9BB6 = {
 			isa = PBXGroup;
 			children = (
@@ -140,8 +149,7 @@
 				D4D10E0E1C1FAB31002C9BB6 /* JKViewController.m */,
 				D4D10E2F1C200F00002C9BB6 /* JKWebViewController.h */,
 				D4D10E301C200F00002C9BB6 /* JKWebViewController.m */,
-				D4D10E171C1FB1DD002C9BB6 /* Categories */,
-				D4D10E101C1FB136002C9BB6 /* Views */,
+				D473ED861C2168B300576942 /* JKCycleScrollViews */,
 				D4D10DE61C1FAAEF002C9BB6 /* Assets.xcassets */,
 				D4D10DE81C1FAAEF002C9BB6 /* LaunchScreen.storyboard */,
 				D4D10DEB1C1FAAEF002C9BB6 /* Info.plist */,
