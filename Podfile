@@ -1,0 +1,7 @@
+platform:ios, '7.0'
+pod 'SDWebImage'
+pod 'SVProgressHUD'
+pod 'TAPageControl'
+pod 'UIActivityIndicator-for-SDWebImage'
+pod 'JGProgressHUD'
+pod 'TAPageControl'

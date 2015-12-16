@@ -1,0 +1,25 @@
+PODS:
+  - JGProgressHUD (1.3.1)
+  - SDWebImage (3.7.3):
+    - SDWebImage/Core (= 3.7.3)
+  - SDWebImage/Core (3.7.3)
+  - SVProgressHUD (1.1.3)
+  - TAPageControl (0.2.0)
+  - UIActivityIndicator-for-SDWebImage (1.2):
+    - SDWebImage (~> 3.7)
+
+DEPENDENCIES:
+  - JGProgressHUD
+  - SDWebImage
+  - SVProgressHUD
+  - TAPageControl
+  - UIActivityIndicator-for-SDWebImage
+
+SPEC CHECKSUMS:
+  JGProgressHUD: 153053a21d81208cb5f659691996bcefce6a9885
+  SDWebImage: 1d2b1a1efda1ade1b00b6f8498865f8ddedc8a84
+  SVProgressHUD: 748080e4f36e603f6c02aec292664239df5279c1
+  TAPageControl: fd11d779bbb5c2464ca2f55dde9e288213ea8a9b
+  UIActivityIndicator-for-SDWebImage: 7bf7ebbf0ed1747dedc0d6e949c4603a6d0f9e0c
+
+COCOAPODS: 0.38.2
