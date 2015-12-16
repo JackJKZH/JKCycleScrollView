@@ -5,8 +5,8 @@
 ### 使用方法：将demo中得JKCycleScrollViews加入项目中，导入#import "JKCycleScrollView.h"头文；如要实现图片点击方法则要遵守JKCycleScrollViewDelegate，设置代理，实现代理方法
 
 #### // 创建不带标题的本地图片轮播器
-JKCycleScrollView *cycleScrollView = [JKCycleScrollView cycleScrollViewWithFrame:CGRectMake(0, 64, width, 200) imagesGroup:images];
-[self.view addSubview:cycleScrollView];
+    JKCycleScrollView *cycleScrollView = [JKCycleScrollView cycleScrollViewWithFrame:CGRectMake(0, 64, width, 200) imagesGroup:images];
+    [self.view addSubview:cycleScrollView];
 
 ####  // 创建带标题的url图片轮播器
     JKCycleScrollView *cycleScrollView2 = [JKCycleScrollView cycleScrollViewWithFrame:CGRectMake(0, 270, width, 190) imagesUrlStringGroup:self.imageUrlArr];
