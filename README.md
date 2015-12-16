@@ -1,6 +1,6 @@
 # JKCycleScrollView
 ## 无限循环轮播图  banner专用
-
+ ![image](https://github.com/JackJKZH/JKCycleScrollView/blob/master/lunbo.png)
 
 ### 使用方法：将demo中得JKCycleScrollViews加入项目中，导入#import "JKCycleScrollView.h"头文；如要实现图片点击方法则要遵守JKCycleScrollViewDelegate，设置代理，实现代理方法
 
