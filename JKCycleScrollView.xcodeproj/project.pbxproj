@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		0C7FF318CF9CDE83C9FC6855 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 263B0AC4CFFB1CFADE981C57 /* libPods.a */; };
+		D42EB47F1C22AB6500E24B5C /* UIView+JKViewFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = D42EB4791C22AB6500E24B5C /* UIView+JKViewFrame.m */; };
+		D42EB4801C22AB6500E24B5C /* JKCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D42EB47C1C22AB6500E24B5C /* JKCollectionViewCell.m */; };
+		D42EB4811C22AB6500E24B5C /* JKCycleScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = D42EB47E1C22AB6500E24B5C /* JKCycleScrollView.m */; };
 		D4D10DDC1C1FAAEF002C9BB6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D4D10DDB1C1FAAEF002C9BB6 /* main.m */; };
 		D4D10DDF1C1FAAEF002C9BB6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D4D10DDE1C1FAAEF002C9BB6 /* AppDelegate.m */; };
 		D4D10DE71C1FAAEF002C9BB6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4D10DE61C1FAAEF002C9BB6 /* Assets.xcassets */; };
@@ -15,9 +18,6 @@
 		D4D10DF51C1FAAEF002C9BB6 /* JKCycleScrollViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D4D10DF41C1FAAEF002C9BB6 /* JKCycleScrollViewTests.m */; };
 		D4D10E001C1FAAEF002C9BB6 /* JKCycleScrollViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D4D10DFF1C1FAAEF002C9BB6 /* JKCycleScrollViewUITests.m */; };
 		D4D10E0F1C1FAB31002C9BB6 /* JKViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4D10E0E1C1FAB31002C9BB6 /* JKViewController.m */; };
-		D4D10E131C1FB16B002C9BB6 /* JKCycleScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = D4D10E121C1FB16B002C9BB6 /* JKCycleScrollView.m */; };
-		D4D10E161C1FB198002C9BB6 /* JKCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D4D10E151C1FB198002C9BB6 /* JKCollectionViewCell.m */; };
-		D4D10E1B1C1FB365002C9BB6 /* UIView+JKViewFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = D4D10E1A1C1FB365002C9BB6 /* UIView+JKViewFrame.m */; };
 		D4D10E2B1C200AC6002C9BB6 /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D4D10E271C200AC6002C9BB6 /* 2.jpg */; };
 		D4D10E2C1C200AC6002C9BB6 /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D4D10E281C200AC6002C9BB6 /* 3.jpg */; };
 		D4D10E2D1C200AC6002C9BB6 /* 4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D4D10E291C200AC6002C9BB6 /* 4.jpg */; };
@@ -46,6 +46,12 @@
 		263B0AC4CFFB1CFADE981C57 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		95507627EAA2D96E5505D35A /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		A9DA5166D29297A2FA9E0A4C /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		D42EB4781C22AB6500E24B5C /* UIView+JKViewFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+JKViewFrame.h"; sourceTree = "<group>"; };
+		D42EB4791C22AB6500E24B5C /* UIView+JKViewFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+JKViewFrame.m"; sourceTree = "<group>"; };
+		D42EB47B1C22AB6500E24B5C /* JKCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKCollectionViewCell.h; sourceTree = "<group>"; };
+		D42EB47C1C22AB6500E24B5C /* JKCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKCollectionViewCell.m; sourceTree = "<group>"; };
+		D42EB47D1C22AB6500E24B5C /* JKCycleScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKCycleScrollView.h; sourceTree = "<group>"; };
+		D42EB47E1C22AB6500E24B5C /* JKCycleScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKCycleScrollView.m; sourceTree = "<group>"; };
 		D4D10DD71C1FAAEF002C9BB6 /* JKCycleScrollView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JKCycleScrollView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4D10DDB1C1FAAEF002C9BB6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D4D10DDD1C1FAAEF002C9BB6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -61,12 +67,6 @@
 		D4D10E011C1FAAEF002C9BB6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D4D10E0D1C1FAB31002C9BB6 /* JKViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKViewController.h; sourceTree = "<group>"; };
 		D4D10E0E1C1FAB31002C9BB6 /* JKViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKViewController.m; sourceTree = "<group>"; };
-		D4D10E111C1FB16B002C9BB6 /* JKCycleScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKCycleScrollView.h; sourceTree = "<group>"; };
-		D4D10E121C1FB16B002C9BB6 /* JKCycleScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKCycleScrollView.m; sourceTree = "<group>"; };
-		D4D10E141C1FB198002C9BB6 /* JKCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKCollectionViewCell.h; sourceTree = "<group>"; };
-		D4D10E151C1FB198002C9BB6 /* JKCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKCollectionViewCell.m; sourceTree = "<group>"; };
-		D4D10E191C1FB365002C9BB6 /* UIView+JKViewFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+JKViewFrame.h"; sourceTree = "<group>"; };
-		D4D10E1A1C1FB365002C9BB6 /* UIView+JKViewFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+JKViewFrame.m"; sourceTree = "<group>"; };
 		D4D10E271C200AC6002C9BB6 /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
 		D4D10E281C200AC6002C9BB6 /* 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpg; sourceTree = "<group>"; };
 		D4D10E291C200AC6002C9BB6 /* 4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 4.jpg; sourceTree = "<group>"; };
@@ -109,11 +109,33 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		D42EB4771C22AB6500E24B5C /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				D42EB4781C22AB6500E24B5C /* UIView+JKViewFrame.h */,
+				D42EB4791C22AB6500E24B5C /* UIView+JKViewFrame.m */,
+			);
+			name = Categories;
+			path = JKCycleScrollViews/Categories;
+			sourceTree = "<group>";
+		};
+		D42EB47A1C22AB6500E24B5C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D42EB47B1C22AB6500E24B5C /* JKCollectionViewCell.h */,
+				D42EB47C1C22AB6500E24B5C /* JKCollectionViewCell.m */,
+				D42EB47D1C22AB6500E24B5C /* JKCycleScrollView.h */,
+				D42EB47E1C22AB6500E24B5C /* JKCycleScrollView.m */,
+			);
+			name = Views;
+			path = JKCycleScrollViews/Views;
+			sourceTree = "<group>";
+		};
 		D473ED861C2168B300576942 /* JKCycleScrollViews */ = {
 			isa = PBXGroup;
 			children = (
-				D4D10E171C1FB1DD002C9BB6 /* Categories */,
-				D4D10E101C1FB136002C9BB6 /* Views */,
+				D42EB4771C22AB6500E24B5C /* Categories */,
+				D42EB47A1C22AB6500E24B5C /* Views */,
 			);
 			name = JKCycleScrollViews;
 			sourceTree = "<group>";
@@ -186,26 +208,6 @@
 				D4D10E011C1FAAEF002C9BB6 /* Info.plist */,
 			);
 			path = JKCycleScrollViewUITests;
-			sourceTree = "<group>";
-		};
-		D4D10E101C1FB136002C9BB6 /* Views */ = {
-			isa = PBXGroup;
-			children = (
-				D4D10E111C1FB16B002C9BB6 /* JKCycleScrollView.h */,
-				D4D10E121C1FB16B002C9BB6 /* JKCycleScrollView.m */,
-				D4D10E141C1FB198002C9BB6 /* JKCollectionViewCell.h */,
-				D4D10E151C1FB198002C9BB6 /* JKCollectionViewCell.m */,
-			);
-			name = Views;
-			sourceTree = "<group>";
-		};
-		D4D10E171C1FB1DD002C9BB6 /* Categories */ = {
-			isa = PBXGroup;
-			children = (
-				D4D10E191C1FB365002C9BB6 /* UIView+JKViewFrame.h */,
-				D4D10E1A1C1FB365002C9BB6 /* UIView+JKViewFrame.m */,
-			);
-			name = Categories;
 			sourceTree = "<group>";
 		};
 		D543D0B88B99F7492257F737 /* Pods */ = {
@@ -385,13 +387,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D4D10E1B1C1FB365002C9BB6 /* UIView+JKViewFrame.m in Sources */,
 				D4D10DDF1C1FAAEF002C9BB6 /* AppDelegate.m in Sources */,
-				D4D10E131C1FB16B002C9BB6 /* JKCycleScrollView.m in Sources */,
-				D4D10E161C1FB198002C9BB6 /* JKCollectionViewCell.m in Sources */,
 				D4D10E0F1C1FAB31002C9BB6 /* JKViewController.m in Sources */,
 				D4D10E311C200F00002C9BB6 /* JKWebViewController.m in Sources */,
+				D42EB47F1C22AB6500E24B5C /* UIView+JKViewFrame.m in Sources */,
+				D42EB4811C22AB6500E24B5C /* JKCycleScrollView.m in Sources */,
 				D4D10DDC1C1FAAEF002C9BB6 /* main.m in Sources */,
+				D42EB4801C22AB6500E24B5C /* JKCollectionViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

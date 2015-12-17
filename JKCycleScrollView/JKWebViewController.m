@@ -28,7 +28,7 @@
     // Dispose of any resources that can be recreated.
 }
 -(void)viewWillDisappear:(BOOL)animated{
-    [SVProgressHUD dismiss];   
+    [SVProgressHUD dismiss];
 }
 - (UIWebView *) webView {
     if (!_webView) {

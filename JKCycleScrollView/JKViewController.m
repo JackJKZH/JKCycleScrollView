@@ -44,7 +44,7 @@
     // 创建不带标题的图片轮播器
     JKCycleScrollView *cycleScrollView = [JKCycleScrollView cycleScrollViewWithFrame:CGRectMake(0, 64, width, 200) imagesGroup:images];
     cycleScrollView.delegate = self;
-    cycleScrollView.autoScrollTimeInterval = 3.0;
+    cycleScrollView.autoScrollTimeInterval = 2.0;
     cycleScrollView.pageControlAliment = JKCycleScrollViewPageContolAlimentCenter;
  
     cycleScrollView.dotSize = CGSizeMake(10, 10);
@@ -54,7 +54,7 @@
     // 创建带标题的url图片轮播器
     JKCycleScrollView *cycleScrollView2 = [JKCycleScrollView cycleScrollViewWithFrame:CGRectMake(0, 270, width, 190) imagesUrlStringGroup:self.imageUrlArr];
     cycleScrollView2.pageControlAliment = JKCycleScrollViewPageContolAlimentRight;
-    cycleScrollView2.autoScrollTimeInterval = 2.0;
+    cycleScrollView2.autoScrollTimeInterval = 3.0;
     cycleScrollView2.delegate = self;
     cycleScrollView2.titlesGroup = titles;
     cycleScrollView2.tag = 2;
@@ -63,7 +63,7 @@
     // 创建带标题的url图片轮播器
     JKCycleScrollView *cycleScrollView3 = [JKCycleScrollView cycleScrollViewWithFrame:CGRectMake(0, 470, width, 190) imagesGroup:images];
     cycleScrollView3.pageControlAliment = JKCycleScrollViewPageContolAlimentRight;
-    cycleScrollView3.autoScrollTimeInterval = 1.0;
+    cycleScrollView3.autoScrollTimeInterval =1.5;
     cycleScrollView3.delegate = self;
     cycleScrollView3.titlesGroup = titles;
     [self.view addSubview:cycleScrollView3];
